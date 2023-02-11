@@ -12,7 +12,7 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}} ({notice.DATA})
+      天气：{{weather.DATA}}
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
@@ -26,7 +26,7 @@ const TEMPLATE_CONFIG = [
       
       今天是我们相识的第{{love_day.DATA}}天
       
-      {{note_ch.DATA}}
+      {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
       

@@ -6,7 +6,7 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      今日提示：{{holidaytts.DATA}}
       
       ---
       
@@ -15,6 +15,10 @@ const TEMPLATE_CONFIG = [
       天气：{{weather.DATA}}
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      湿度: {{shidu.DATA}}
+      
+      PM2.5: {{pm25.DATA}}
       
       风向: {{wind_direction.DATA}}
       

@@ -12,7 +12,7 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      天气：{{weather.DATA}}({notice.DATA})
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
@@ -26,7 +26,7 @@ const TEMPLATE_CONFIG = [
       
       今天是我们相识的第{{love_day.DATA}}天
       
-      {{birthday_message.DATA}}
+     
                   
       ---
       
@@ -46,6 +46,8 @@ const TEMPLATE_CONFIG = [
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       
       ---
+      
+       {{birthday_message.DATA}}
       
       共推送 {{need_post_num.DATA}} 人
       
